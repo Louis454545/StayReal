@@ -8,9 +8,18 @@ import MdiDelete from '~icons/mdi/delete'
 import { open } from "@tauri-apps/plugin-shell";
 import { deletePersonMe, ProfileDeletionAlreadyScheduledError } from "~/api/requests/person/me";
 import { confirm, message } from '@tauri-apps/plugin-dialog';
+import { useState } from 'react';
 
 const Settings: Component = () => {
   const navigate = useNavigate();
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+
+  const handleThemeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedTheme = event.target.value;
+    setTheme(selectedTheme);
+    localStorage.setItem('theme', selectedTheme);
+    document.body.setAttribute('data-theme', selectedTheme);
+  };
 
   const Entry: Component<{ title: string, icon: JSXElement, onClick: () => void }> = (props) => (
     <button
@@ -73,6 +82,15 @@ const Settings: Component = () => {
             navigate("/");
           }} />
         </div>
+      </div>
+
+      <div class="p-4">
+        <h1>Paramètres</h1>
+        <label htmlFor="theme-select">Choisir le thème:</label>
+        <select id="theme-select" value={theme} onChange={handleThemeChange}>
+          <option value="dark">Sombre</option>
+          <option value="light">Clair</option>
+        </select>
       </div>
     </>
   )

@@ -61,6 +61,9 @@ const routes = [
   }
 ]
 
+const theme = localStorage.getItem('theme') || 'dark';
+document.body.setAttribute('data-theme', theme);
+
 render(() => (
   <>
     <Toaster position="bottom-center"
