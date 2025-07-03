@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="deploymentTargetSelector">
-    <selectionStates>
-      <SelectionState runConfigName="app">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-    </selectionStates>
-  </component>
-</project>
+awn-time":"2025-06-05T19:39:46.428612481Z","ready-time":"2025-06-05T19:39:47.108578503Z","doing-time":7360419},"19":{"id":"19","kind":"link-snap","summary":"Make snap \"core20\" (2582) available to the system","status":4,"waited-status":4,"clean":true,"data":{"old-candidate-index":-1,"old-channel":""
