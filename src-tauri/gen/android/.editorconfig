@@ -1,12 +1,1 @@
-# EditorConfig is awesome: https://EditorConfig.org
-
-# top-most EditorConfig file
-root = true
-
-[*]
-indent_style = space
-indent_size = 2
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = false
-insert_final_newline = false
+rofiles of 2 snaps","duration":703424116}],"start-time":"2025-06-05T19:39:48.126286827Z","stop-time":"2025-06-05T19:39:48.92022908Z"},{"tags":{"change-id":"2","ensure":"become-operational"},"start-time":"0001-01-01T00:00:00Z","sto

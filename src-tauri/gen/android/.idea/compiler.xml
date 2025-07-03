@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="21">
-      <module name="android.tauri-plugin-bereal-api" target="21" />
-    </bytecodeTargetLevel>
-  </component>
-</project>
+ownload-url":"https://api.snapcraft.io/api/v1/snaps/download/DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q_2599.snap","size":66863104,"sha3-384":"ace62ab866e314e139b3eeace509ed5d9860d6fcd47697a7f23e0e0ba3cbb0486795ed33a6d7bf2e6b35c4e6437da956","deltas":[{"from-revision":2582

@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="RunConfigurationProducerService">
-    <option name="ignoredProducers">
-      <set>
-        <option value="com.intellij.execution.junit.AbstractAllInDirectoryConfigurationProducer" />
-        <option value="com.intellij.execution.junit.AllInPackageConfigurationProducer" />
-        <option value="com.intellij.execution.junit.PatternConfigurationProducer" />
-        <option value="com.intellij.execution.junit.TestInClassConfigurationProducer" />
-        <option value="com.intellij.execution.junit.UniqueIdConfigurationProducer" />
-        <option value="com.intellij.execution.junit.testDiscovery.JUnitTestDiscoveryConfigurationProducer" />
-        <option value="org.jetbrains.kotlin.idea.junit.KotlinJUnitRunConfigurationProducer" />
-        <option value="org.jetbrains.kotlin.idea.junit.KotlinPatternConfigurationProducer" />
-      </set>
-    </option>
-  </component>
-</project>
+M\nm4/Vmen6ozzD+xySjFLs4LG7eF3Di9XAyMuTHjUA6uYLNruJVk5QQulu9OTCVX+uIDXRqqhk0T7D\n8fEQXTIpR/Po1ifm+TnRyVVspnEbgypTlfVFvJisIk8ml+TuwPZokDKqyEQc2MX+6oEBmxqwAi4d\njlGVMMork3wBR1QaoFZU4L1HtuoT\n"}},"wait-tasks":["46"],"log":["2025-06-29T21:07:41Z ERROR cannot retrieve request-id for making a request for a serial: Post \"https://api.snapcraft.io/api/v1/snaps/auth/request-id\": dial tcp: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving"],"change":"2","spawn-time":"2025-06-29T21:07:40.980561544Z","ready-time":"2025-06-29T21:09:41.133816939Z","doing-time":967494061},"48":{"id":"48","kind":"prerequisites","summary":"Ensure prerequisites for \"core20\" are available","status":4,"waited-status":0,"data":{"snap-setup":{"channel":"latest/stable","type":"base","plugs-only":true,"version":"20250526","is-auto-refresh":true,"transaction":"per-snap","download-info":{"download-url":"https://api.snapcraft.io/api/v1/snaps/download/DLqre5XGLbDqg9jPtiAhRRjDuPVa5

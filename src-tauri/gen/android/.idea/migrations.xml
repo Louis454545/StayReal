@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectMigrations">
-    <option name="MigrateToGradleLocalJavaHome">
-      <set>
-        <option value="$PROJECT_DIR$" />
-      </set>
-    </option>
-  </component>
-</project>
+channel":"4.0/stable/ubuntu-20.04","base":"core20","type":"app","version":"4.0.10-d342340","snap-path":"/var/lib/snapd/seed/snaps/lxd_32662.snap","side-info":{"name":"lxd","snap-id":"J60k4JY0HppjwOjW8dZdYc8obXKxujRu","revision":"32662"},"website":"https:

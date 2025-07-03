@@ -1,9 +1,1 @@
-<project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
-</project>
+3","kind":"stop-snap-services","summary":"Stop snap \"core20\" services","status":0,"waited-status":0,"data":{"snap-setup-task":"49","stop-reason":"refresh"},"wait-tasks":["52"],"halt-tasks":["54","65"],"lanes":[1],"change":"3","spawn-time":"2025-07-03T12:06:06.780042233Z"},"54":{"id":"54","kind":"remove-aliases","summary":"Remove aliases for snap \"core20\"","status":0,"waited-status":0,"data":{"remove-re

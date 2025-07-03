@@ -27,6 +27,7 @@
     },
     "internal-api:default",
     "dialog:default",
-    "opener:default"
+    "opener:default",
+    "fs:default"
   ]
 }

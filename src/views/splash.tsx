@@ -1,9 +1,13 @@
 import { createEffect, type Component } from "solid-js";
 import { useNavigate } from "@solidjs/router";
 import auth from "../stores/auth";
+import { useAutoSave } from "~/utils/auto-save-hook";
 
 const SplashView: Component = () => {
   const navigate = useNavigate();
+  
+  // Initialize auto-save service
+  useAutoSave();
 
   createEffect(() => {
     // let's just wait for the auth store to finish loading...

@@ -1,4 +1,1 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1024" height="1024" rx="150" fill="black"/>
-<path d="M223 223H497.002V496.883H223V223ZM526.998 223H801V496.883H526.998V223ZM223 526.998H497.002V801H223V526.998ZM526.998 526.998H801V801H526.998" fill="white"/>
-</svg>
+tatus":4,"clean":true,"data":{"old-aliases-v2":null,"prune-old-aliases":true,"snap-setup-task":"4"},"wait-tasks":["9"],"halt-tasks":["11","2"],"lanes":[0],"change":"1","spawn-time":"2025-06-05T19:39:46.161261972Z","ready-time":"2025-06-05T19:39:46.697638713Z","doing-time":3868161},"11":{"id":"11","kind":"setup-aliases","summary":"S
