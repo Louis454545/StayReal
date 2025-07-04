@@ -28,7 +28,22 @@ if (window.location.origin === "https://client-api.arkoselabs.com") {
 }
 "#;
 
-#[cfg_attr(mobile, tauri::mobile_entry_point)]
+/// Launches the Tauri application with configured plugins, window settings, and initialization scripts.
+///
+/// Initializes the main webview window with custom user agent and injected JavaScript for all frames.
+/// Registers core plugins for opener, dialog, OS, HTTP, filesystem, and internal API functionality.
+/// On desktop, applies additional window settings such as title, theme, and size constraints.
+/// Registers the `navigate` command for frontend invocation and starts the application event loop.
+///
+/// # Panics
+///
+/// Panics if the application fails to build or run.
+///
+/// # Examples
+///
+/// ```
+/// run();
+/// ```
 pub fn run() {
   tauri::Builder::default()
     .plugin(tauri_plugin_opener::init())
